@@ -16,7 +16,8 @@ echo -e ${PINK}"\n"
 subfinder -dL /sec/root/subzy/sub.txt -o /sec/root/subs.txt -all
 echo -e ${GREEN}"\n"
 go run main.go run --targets /sec/root/subs.txt --hide_fails
-echo -e ${CPO}"\n\n                  Scanning has finished.\n\n"
+sleep 1
+echo -e ${NEW}"\n\n                  Scanning has finished.\n\n"
 sleep 1
 rm -rf /sec/root/subzy/sub.txt && rm -rf /sec/root/subs.txt
 sleep 1
