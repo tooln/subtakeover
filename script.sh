@@ -18,6 +18,4 @@ echo -e ${GREEN}"\n"
 go run main.go run --targets /sec/root/subs.txt --hide_fails
 sleep 1
 echo -e ${NEW}"\n\n                  Scanning has finished.\n\n"
-sleep 1
-rm -rf /sec/root/subzy/sub.txt && rm -rf /sec/root/subs.txt
-sleep 1
+sleep 2
