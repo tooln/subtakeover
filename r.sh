@@ -3,8 +3,6 @@
 sleep 1
 apt update
 sleep 1
-apt full-upgrade -y
-sleep 1
 subfinder -up
 sleep 1
 git clone https://github.com/PentestPad/subzy.git
